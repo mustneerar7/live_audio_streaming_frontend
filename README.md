@@ -1,0 +1,2 @@
+# Live audio frontend
+This is a simple front-end for live audio processing. It uses the Web Audio API to capture audio from the microphone and send it to a server for conversion into a stream format in realtime.
