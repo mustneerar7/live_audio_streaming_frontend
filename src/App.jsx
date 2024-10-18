@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 function App() {
 
   useEffect(() => {
-    const socket = new WebSocket("ws://localhost:8081");
+    const socket = new WebSocket("ws://localhost:8082");
 
     socket.onopen = () => {
       console.log("WebSocket connection opened.");
